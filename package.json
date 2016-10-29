@@ -2,11 +2,7 @@
   "name": "SinglePageResponsive",
   "version": "0.0.1",
   "description": "A website that uses single page responsive CSS with Sass, Compass, Susy 2, etc",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/planetoftheweb/responsive.git"
-  },
-  "author": "Ray Villalobos",
+  "author": "Paul Yorde",
   "devDependencies": {
     "gulp": "^3.8.11",
     "gulp-browserify": "^0.5.0",
