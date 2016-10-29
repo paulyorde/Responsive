@@ -100,14 +100,4 @@ gulp.task('move', function() {
   .pipe(gulpif(env === 'production', gulp.dest(outputDir+'images')));
 });
 
-// gulpfile.js
-// gulp.task('sass', function() {
-//   return gulp.src('scss/*.scss')
-//       .pipe(sass({
-//           outputStyle: 'compressed',
-//           includePaths: ['node_modules/susy/sass']
-//       }).on('error', sass.logError))
-//       .pipe(gulp.dest('dist/css'));
-// });
-
 gulp.task('default', ['watch', 'html', 'js', 'compass', 'move', 'connect']);
